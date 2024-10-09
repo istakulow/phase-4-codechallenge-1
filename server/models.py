@@ -99,7 +99,7 @@ class HeroPower(db.Model, SerializerMixin):
             "strength": self.strength,
             "hero_id": self.hero_id,
             "power_id": self.power_id
-           
+        }       
         
     def __repr__(self):
         return f'<HeroPower {self.id}>'
